@@ -1,4 +1,4 @@
-.input {
+/* .input {
   display: flex;
   align-items: center;
   margin-bottom: 0.5rem;
@@ -15,4 +15,8 @@
   border: 1px solid #ccc;
   font: inherit;
   padding-left: 0.5rem;
+} */
+
+.input {
+  display: none;
 }

@@ -25,10 +25,10 @@ const MealItemForm = (props) => {
       <Input
         label="Amount"
         ref={amountInputRef}
-        input={{ id: "amount" + props.id, step: "1", type: "number", min: "1", max: "5", defaultValue: "1" }}
+        input={{ id: "amount" + props.id, defaultValue: "1", min: "1", max: "5", step: "1", type: "number" }}
       />
-      <button>+ Add</button>
-      {/* {!amountIsValid && <p>Please enter a valid amount (1-5).</p>} */}
+      <button className={classes.butt}>+ Add</button>
+      {!amountIsValid && <p>Please enter a valid amount (1-5).</p>}
     </form>
   );
 };
